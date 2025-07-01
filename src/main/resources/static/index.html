@@ -11,10 +11,23 @@
 <form>
 <label for="tittel">* Beskrivende tittel av hendelsen</label><br>
 <input type="text" id="tittel" name="tittel"><br>
-    <label>* Dato og klokkeslett</label>
+    <label>* Dato og klokkeslett</label><br>
     <!--legg inn kalender her -->
     <!-- legg inn nedtrekksliste med klokkeslett her -->
-
+<label for="beskrivelse">* Beskriv hendelsen</label><br>
+    <textarea type="text" id="beskrivelse" name="beskrivelse" rows="8" cols="50"></textarea><br>
+    <label>Velg hendelsestype</label><br>
+    <input list="type">
+    <datalist id="type">
+        <option value="1. Behandling og pleie">
+        <option value="2. Legemidler">
+        <option value="3. Atferd og utagering fra tjenestemottakere">
+        <option value="4. Fall og ulykker">
+        <option value="5. Helse - miljø og sikkerhet">
+        <option value="6. Informasjonssikkerhet og personvern">
+        <option value="7. Forvaltning og individuelle tjenester">
+        <option value="8. Barn og unge">
+    </datalist>
 </form>
 
 </body>
